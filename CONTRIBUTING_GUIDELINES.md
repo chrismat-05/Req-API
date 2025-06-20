@@ -1,7 +1,7 @@
 
-# Contributing to API Peek
+# Contributing to Req API
 
-Thank you for considering contributing to **API Peek**! I would like to welcome anyone with helpful feedback.
+Thank you for considering contributing to **Req API**! I would like to welcome anyone with helpful feedback.
 
 ---
 
@@ -10,8 +10,8 @@ Thank you for considering contributing to **API Peek**! I would like to welcome 
 1. **Fork** this repository
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/your-username/api-peek.git
-   cd api-peek
+   git clone https://github.com/your-username/Req-API.git
+   cd Req-API
    ```
 3. **Create a new branch** for your changes:
    ```bash
@@ -57,5 +57,5 @@ If you find a bug or have an idea, open an Issue with:
 
 ---
 
-Thank you for making API Peek better
+Thank you for making Req API better
 I appreciate your time and contributions!

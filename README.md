@@ -1,10 +1,10 @@
-# API Peek
+# Req API
 
-**API Peek** is a developer tool to debug and inspect API requests. Enter a URL, select method, pass headers/body — and get a clean, formatted response with status, headers, and time taken.
+**Req API** is a developer tool to debug and inspect API requests. Enter a URL, select method, pass headers/body — and get a clean, formatted response with status, headers, and time taken.
 
 
 ## Live URL
-[apipeek.thecma.xyz](https://apipeek.thecma.xyz)
+[reqapi.thecma.xyz](https://reqapi.thecma.xyz)
 
 ---
 
@@ -29,7 +29,7 @@
 ## Getting Started
 
 ```bash
-git clone https://github.com/yourusername/api-peek.git
+git clone https://github.com/yourusername/Req-API.git
 cd api-peek
 npm install
 npm run dev
