@@ -1,63 +1,38 @@
-import axios from 'axios';
+import axios from 'axios'
 
-/**
- * Makes an HTTP request and returns formatted response data
- * @param {Object} config - Request configuration
- * @param {string} config.method - HTTP method (GET, POST, PUT, DELETE)
- * @param {string} config.url - Request URL
- * @param {Array} config.headers - Array of header objects { key, value }
- * @param {Object|string} config.body - Request body (for non-GET requests)
- * @returns {Promise<Object>} Formatted response { status, time, headers, body }
- */
-export const makeRequest = async ({ method, url, headers = [], body }) => {
-  const startTime = performance.now();
-  let responseTime;
-  
+export async function makeRequest({ method, url, headers, body }) {
+  const startTime = performance.now()
+
   try {
-    const axiosHeaders = headers.reduce((acc, { key, value }) => {
-      if (key) acc[key] = value;
-      return acc;
-    }, {});
-
     const config = {
-      method: method.toLowerCase(),
+      method,
       url,
-      headers: axiosHeaders,
-      ...(method !== 'GET' && { data: body })
-    };
+      headers: headers || {},
+      data: body || {},
+      validateStatus: () => true,
+    }
 
-    const response = await axios(config);
-    responseTime = Math.round(performance.now() - startTime);
+    const response = await axios(config)
+    const endTime = performance.now()
 
     return {
       status: response.status,
-      time: responseTime,
+      statusText: response.statusText,
+      timeTaken: Math.round(endTime - startTime),
       headers: response.headers,
-      body: response.data
-    };
-  } catch (error) {
-    responseTime = Math.round(performance.now() - startTime);
-    
-    if (axios.isAxiosError(error)) {
-      return {
-        status: error.response?.status || 500,
-        time: responseTime,
-        headers: error.response?.headers || {},
-        body: error.response?.data || {
-          error: error.message,
-          details: 'Network or server error occurred'
-        }
-      };
+      data: response.data,
+      error: null,
     }
+  } catch (error) {
+    const endTime = performance.now()
 
     return {
-      status: 500,
-      time: responseTime,
-      headers: {},
-      body: {
-        error: 'Request failed',
-        details: error.message
-      }
-    };
+      status: error.response?.status || 500,
+      statusText: error.response?.statusText || 'Error',
+      timeTaken: Math.round(endTime - startTime),
+      headers: error.response?.headers || {},
+      data: error.response?.data || { message: error.message },
+      error: error.message,
+    }
   }
-};
+}

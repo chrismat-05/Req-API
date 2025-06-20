@@ -1,11 +1,9 @@
-const Loader = ({ size = 'h-8 w-8', className = '' }) => {
+import React from 'react';
+
+export default function Loader() {
   return (
-    <div className={`flex justify-center items-center h-full ${className}`}>
-      <div
-        className={`animate-spin rounded-full border-4 border-solid border-primary-500 border-t-transparent ${size}`}
-      />
+    <div className="flex justify-center items-center py-10">
+      <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin"></div>
     </div>
   );
-};
-
-export default Loader;
+}
