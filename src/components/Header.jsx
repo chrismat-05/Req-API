@@ -8,11 +8,11 @@ export default function Header() {
         <div className="flex items-center space-x-2">
           <div className="w-2 h-2 bg-indigo-400 rounded-full animate-pulse"></div>
           <h1 className="text-xl font-bold tracking-tight">
-            <span className="text-indigo-300">API</span> Peek
+            Req <span className="text-indigo-300">API</span>
           </h1>
         </div>
         <a
-          href="https://github.com/chrismat-05/api-peek"
+          href="https://github.com/chrismat-05/Req-API"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center space-x-1.5 text-slate-300 hover:text-white transition-colors text-sm font-medium px-3 py-1.5 rounded-lg hover:bg-slate-800"

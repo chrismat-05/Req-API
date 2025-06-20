@@ -84,7 +84,7 @@ export default function Home() {
               Debug APIs with <span className="text-indigo-200">Ease</span>
             </h1>
             <p className="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
-              API Peek is your lightweight companion for API exploration. Send requests, inspect responses, and debug effortlessly with our intuitive interface.
+              Req API is your lightweight companion for API exploration. Send requests, inspect responses, and debug effortlessly with our intuitive interface.
             </p>
             <div className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 text-blue-50 text-sm font-medium">
               <span>✨</span>
@@ -101,7 +101,7 @@ export default function Home() {
         >
           <div className="p-6 border-b border-slate-200 bg-slate-50">
             <h2 className="text-xl font-semibold text-slate-800">API Request</h2>
-            <p className="text-slate-600 mt-1">Configure your request and hit Peek</p>
+            <p className="text-slate-600 mt-1">Configure your request and hit Send</p>
           </div>
           <div className="p-6">
             <RequestForm onSubmit={handleSubmit} />

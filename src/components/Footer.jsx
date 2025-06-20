@@ -20,7 +20,7 @@ export default function Footer() {
           
           <div className="flex items-center space-x-6">
             <a
-              href="https://github.com/chrismat-05/api-peek"
+              href="https://github.com/chrismat-05/Req-API"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm text-slate-300 hover:text-white transition-colors"
@@ -30,7 +30,7 @@ export default function Footer() {
             </a>
             
             <a
-              href="https://github.com/chrismat-05/api-peek/issues"
+              href="https://github.com/chrismat-05/Req-API/issues"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-sm text-slate-300 hover:text-white transition-colors"
@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-6 pt-6 border-t border-slate-800/50 text-xs text-slate-500 text-center">
-          © {new Date().getFullYear()} API Peek. Open source under MIT license.
+          © {new Date().getFullYear()} Req API. Open source under MIT license.
         </div>
       </div>
     </footer>
