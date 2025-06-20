@@ -1,7 +1,7 @@
 import colors from 'tailwindcss/colors'
 
 export default {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+  content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
       colors: {
@@ -10,7 +10,8 @@ export default {
         accent: colors.indigo[500],
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        display: ['"Alumni Sans Pinstripe"', 'cursive'],
       },
     },
   },
