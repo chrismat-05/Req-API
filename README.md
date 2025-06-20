@@ -34,3 +34,9 @@ cd api-peek
 npm install
 npm run dev
 Open [http://localhost:5173](http://localhost:5173) to view the app.
+
+---
+
+## Author
+
+Created by Chris Mathew Aje [thecma.xyz](https://thecma.xyz) ([@chrismat-05](https://github.com/chrismat-05))

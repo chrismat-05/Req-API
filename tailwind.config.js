@@ -1,11 +1,19 @@
-/** @type {import('tailwindcss').Config} */
+import colors from 'tailwindcss/colors'
+
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: colors.blue[600],
+        primaryDark: colors.blue[800],
+        accent: colors.indigo[500],
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        display: ['"Alumni Sans Pinstripe"', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }
