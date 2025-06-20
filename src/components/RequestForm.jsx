@@ -52,9 +52,9 @@ export default function RequestForm({ onSubmit }) {
 
       <button
         type="submit"
-        className="bg-primary hover:bg-primaryDark text-white font-medium px-4 py-2 rounded w-full"
+        className="bg-slate-900 hover:bg-indigo-200 text-indigo-100 hover:text-white font-medium px-4 py-2 rounded w-full"
       >
-        Send Request
+        Peek @ API
       </button>
     </form>
   );
