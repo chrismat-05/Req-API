@@ -10,7 +10,8 @@ export default {
         accent: colors.indigo[500],
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        display: ['"Alumni Sans Pinstripe"', 'cursive'],
       },
     },
   },
