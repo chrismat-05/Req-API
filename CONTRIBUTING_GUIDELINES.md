@@ -1,12 +1,10 @@
 
 # Contributing to Req API
-
 Thank you for considering contributing to **Req API**! I would like to welcome anyone with helpful feedback.
 
 ---
 
 ## 🔧 Getting Started
-
 1. **Fork** this repository
 2. **Clone** your fork locally:
    ```bash
@@ -19,19 +17,18 @@ Thank you for considering contributing to **Req API**! I would like to welcome a
    ```
 4. **Make your changes** and commit:
    ```bash
-   git commit -m "Add: Your descriptive message here"
+   git commit -m "Add: Your descriptive commit message here"
    ```
 5. **Push** to your fork:
    ```bash
    git push origin feature/your-feature-name
    ```
 6. **Open a Pull Request** on GitHub
-7. **Add your name on AUTHORS.md** once pull request is accepted after review.
+7. **Add your name with detail of your update on AUTHORS.md** once pull request is accepted after review.
 
 ---
 
 ## Code Style & Practices
-
 - Use consistent formatting (Tailwind + JSX)
 - Break code into modular & reusable components
 - Commit messages should be explained well
@@ -40,7 +37,6 @@ Thank you for considering contributing to **Req API**! I would like to welcome a
 ---
 
 ## Tips for Success
-
 - Run `npm run dev` and test locally before opening a PR
 - If the change is major, open an Issue first to discuss it
 - Link any related Issues in your PR description
@@ -49,7 +45,6 @@ Thank you for considering contributing to **Req API**! I would like to welcome a
 ---
 
 ## Issues
-
 If you find a bug or have an idea, open an Issue with:
 - A proper title and description
 - Steps to reproduce (if a bug)

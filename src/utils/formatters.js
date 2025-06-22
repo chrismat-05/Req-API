@@ -1,5 +1,4 @@
 /**
- * Format time in ms with label
  * @param {number} ms
  * @returns {string}
  */
@@ -8,7 +7,6 @@ export function formatTime(ms) {
 }
 
 /**
- * Checks if a string is valid JSON
  * @param {string} str
  * @returns {boolean}
  */
@@ -22,7 +20,6 @@ export function isJsonString(str) {
 }
 
 /**
- * Converts headers object to array of key-value pairs
  * @param {object} headers
  * @returns {Array<{ key: string, value: string }>}
  */

@@ -3,7 +3,6 @@ import { formatTime, formatHeaders } from '../utils/formatters';
 
 export default function ResponseViewer({ response }) {
   if (!response) return null;
-
   const { status, statusText, timeTaken, headers, data } = response;
 
   const statusColor =

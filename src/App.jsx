@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 
+
 const Layout = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">

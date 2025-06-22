@@ -23,6 +23,7 @@ export async function makeRequest({ method, url, headers, body }) {
       data: response.data,
       error: null,
     }
+
   } catch (error) {
     const endTime = performance.now()
 

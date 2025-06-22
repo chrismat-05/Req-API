@@ -1,8 +1,6 @@
 # Req API
 
 **Req API** is a developer tool to debug and inspect API requests. Enter a URL, select method, pass headers/body — and get a clean, formatted response with status, headers, and time taken.
-
-
 ## Live URL
 [reqapi.thecma.xyz](https://reqapi.thecma.xyz)
 
@@ -26,8 +24,7 @@
 
 ---
 
-## Getting Started
-
+## Getting Started in dev environment
 ```bash
 git clone https://github.com/yourusername/Req-API.git
 cd api-peek
@@ -38,5 +35,4 @@ Open [http://localhost:5173](http://localhost:5173) to view the app.
 ---
 
 ## Author
-
 Created by Chris Mathew Aje [thecma.xyz](https://thecma.xyz) ([@chrismat-05](https://github.com/chrismat-05))

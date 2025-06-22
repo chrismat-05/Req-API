@@ -11,6 +11,7 @@ export default function Header() {
             Req <span className="text-indigo-300">API</span>
           </h1>
         </div>
+        
         <a
           href="https://github.com/chrismat-05/Req-API"
           target="_blank"
