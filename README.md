@@ -1,5 +1,6 @@
 # Req API
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/401ffccc-d975-4d97-a447-413d45e34f4e/deploy-status)](https://app.netlify.com/projects/req-api/deploys)
+---
 **Req API** is a developer tool to debug and inspect API requests. Enter a URL, select method, pass headers/body — and get a clean, formatted response with status, headers, and time taken.
 ## Live URL
 [reqapi.thecma.xyz](https://reqapi.thecma.xyz)
